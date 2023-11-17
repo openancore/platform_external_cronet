@@ -74,7 +74,7 @@
  *       crypto/fipsmodule/rand/ctrdrbg_vectors.txt \
  *       crypto/hmac_extra/hmac_tests.txt \
  *       crypto/hpke/hpke_test_vectors.txt \
- *       crypto/kyber/keccak_tests.txt \
+ *       crypto/keccak/keccak_tests.txt \
  *       crypto/kyber/kyber_tests.txt \
  *       crypto/pkcs8/test/empty_password.p12 \
  *       crypto/pkcs8/test/no_encryption.p12 \
@@ -5270,7 +5270,7 @@ std::string GetTestData(const char *path) {
   if (strcmp(path, "crypto/hpke/hpke_test_vectors.txt") == 0) {
     return AssembleString(kData59, kLen59);
   }
-  if (strcmp(path, "crypto/kyber/keccak_tests.txt") == 0) {
+  if (strcmp(path, "crypto/keccak/keccak_tests.txt") == 0) {
     return AssembleString(kData60, kLen60);
   }
   if (strcmp(path, "crypto/kyber/kyber_tests.txt") == 0) {
