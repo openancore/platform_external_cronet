@@ -6008,7 +6008,7 @@
       "visibility": [ "*" ]
    },
    "//base:build_date": {
-      "args": [ "gen/base/generated_build_date.h", "1711551913" ],
+      "args": [ "gen/base/generated_build_date.h", "1718268465" ],
       "deps": [  ],
       "metadata": {
 
@@ -6022,7 +6022,7 @@
       "visibility": [ "*" ]
    },
    "//base:build_date(//build/toolchain/android:robolectric_x64)": {
-      "args": [ "robolectric_x64/gen/base/generated_build_date.h", "1711551913" ],
+      "args": [ "robolectric_x64/gen/base/generated_build_date.h", "1718268465" ],
       "deps": [  ],
       "metadata": {
 
@@ -6036,7 +6036,7 @@
       "visibility": [ "*" ]
    },
    "//base:build_date(//build/toolchain/linux:clang_x64)": {
-      "args": [ "clang_x64/gen/base/generated_build_date.h", "1711551913" ],
+      "args": [ "clang_x64/gen/base/generated_build_date.h", "1718268465" ],
       "deps": [  ],
       "metadata": {
 
