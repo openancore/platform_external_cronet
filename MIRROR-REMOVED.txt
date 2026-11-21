@@ -1,0 +1,19 @@
+Blobs of 100 MiB or larger were removed from this history so GitHub
+can store android-15.0.0_r36. They are test data, sample media,
+generated dumps, wrapper archives, or pngs, not the project source.
+The release commit id differs from AOSP where history was rewritten.
+
+Project: platform/external/cronet
+
+Removed from the release tree:
+- android/tools/gn2bp/desc_arm.json (140.7 MiB)
+- android/tools/gn2bp/desc_arm64.json (197.5 MiB)
+- android/tools/gn2bp/desc_x64.json (194.1 MiB)
+- android/tools/gn2bp/desc_x86.json (139.3 MiB)
+
+Removed from older history only. Not present on android-15.0.0_r36:
+- desc.json (196.6 MiB)
+- desc_arm.json (145.1 MiB)
+- desc_arm64.json (199.6 MiB)
+- desc_x64.json (196.6 MiB)
+- desc_x86.json (143.9 MiB)
